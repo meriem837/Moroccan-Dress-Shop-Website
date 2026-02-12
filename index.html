@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>takchita</title>
+    <style>
+      body {
+        margin: auto;
+        max-width: 60%;
+      }
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-size: 40px;
+        color: #f2708f;
+        margin-bottom: 0cm;
+        padding-top: 20px;
+      }
+      h2 {
+        text-align: center;
+        color: #f2708f;
+        margin-top: 10px;
+      }
+      hr {
+        border: none;
+        height: 2px;
+        background-color: black;
+      }
+      p {
+        line-height: 25px;
+        padding: 20px;
+        margin-top: 0px;
+      }
+      span {
+        font-weight: bold;
+        font-size: 30px;
+      }
+      img {
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        border-radius: 15px;
+      }
+      .structure {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 0px;
+        font-size: 20px;
+        color: #dcaa55;
+        font-weight: bold;
+      }
+      .second {
+        padding: 5px 20px;
+        margin: 0px;
+      }
+      a {
+        display: block;
+        padding: 0px 20px 20px 20px;
+        margin-top: 0px;
+        font-size: 13px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        padding: 20px 30px;
+        font-size: 18px;
+        color: white;
+        background: #f2708f;
+        border: 1.5px solid #f2708f;
+        border-radius: 30px;
+        box-shadow: 0px 8px 8px rgb(174, 169, 169);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        color: #f2708f;
+        background-color: white;
+        cursor: pointer;
+      }
+      .everything {
+        background: linear-gradient(
+          109.6deg,
+          rgb(240, 199, 224) 11.2%,
+          rgb(255, 236, 252) 92.2%
+        );
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="everything">
+      <h1>The Moroccan Dress</h1>
+      <h2>"TAKCHITA"</h2>
+      <hr />
+      <p>
+        <span>T</span>he takshita
+        <strong
+          >(Berber: ⵜⴽⵛⵉⵟⴰ, Arabic: تَكْشِيْطَة, alternate spellings: taqchita,
+          tackshita, tackchita)</strong
+        >
+        is a Moroccan traditional women's garment that, like the Moroccan
+        kaftan, is worn for celebrations, particularly weddings.
+      </p>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/159/304/original/shecodes.jpg?1741118346"
+        width="200"
+      />
+      <div class="structure"><em>Structure</em></div>
+      <p class="second">
+        The takshita is composed of two pieces, a dress as a first layer called
+        tahtiya, often of fine but not ornately decorated fabric, and a more
+        elaborate second layer or over-dress that often buttons up the front
+        using the traditional sfifa and akaad closures and it is called dfina.
+        The upper layer is often richly adorned with embroidery, beading or
+        sequins. Some women wear their takshita belted, with a m'damma which can
+        also be richly adorned and usually matches the dfina.
+      </p>
+      <a href="https://en.wikipedia.org/wiki/Takshita" target="_blank">
+        Learn more on: <br />
+        Wikipedia
+      </a>
+      <button>buy now</button>
+    </div>
+    <script>
+      let name = prompt("what is your name?");
+      let age = prompt("how old are you?");
+      if (age >= 14) {
+        let email = prompt("enter your email");
+        let colour = prompt("what is your favourite color?");
+        alert(
+          "thank you " +
+            name +
+            " we will provide you with the catalog of dresses in " +
+            colour +
+            " 🥰"
+        );
+      } else {
+        alert("sorry ,dresses for girls under 14 are not available");
+      }
+    </script>
+  </body>
+</html>
