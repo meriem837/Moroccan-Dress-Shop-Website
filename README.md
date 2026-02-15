@@ -11,7 +11,7 @@ When users visit or reload the page, they are prompted to enter their name and a
 _Screenshot:_
 
 <div align="center">
-  <img src="screenshots/takchita.netlify.app_.png" width="250">
+  <img src="screenshots/takchita.netlify.app_.png" width="350">
 </div>
 
 ---
