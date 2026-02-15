@@ -10,7 +10,9 @@ When users visit or reload the page, they are prompted to enter their name and a
 
 _Screenshot:_
 
-- ![Screenshot](screenshots/takchita.netlify.app_.png)
+<div align="center">
+  <img src="screenshots/takchita.netlify.app_.png" width="250">
+</div>
 
 ---
 
